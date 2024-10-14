@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Set Cookie";
+}
+
+<h2>Set Cookie</h2>
+
+<form method="post" action="/Home/SetCookie">
+    <div>
+        <label for="value">Значення:</label>
+        <input type="text" id="value" name="value" required />
+    </div>
+    <div>
+        <label for="expirationDate">Дата та час завершення:</label>
+        <input type="datetime-local" id="expirationDate" name="expirationDate" required />
+    </div>
+    <div>
+        <button type="submit">Відправити</button>
+    </div>
+</form>

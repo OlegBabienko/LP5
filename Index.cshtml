@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Запис у Cookies";
+}
+
+<h2>Запис у Cookies</h2>
+
+<form method="post" asp-action="SubmitForm">
+    <div>
+        <label for="value">Введіть значення:</label>
+        <input type="text" id="value" name="value" required />
+    </div>
+    <div>
+        <label for="expiryDate">Виберіть дату та час закінчення дії:</label>
+        <input type="datetime-local" id="expiryDate" name="expiryDate" required />
+    </div>
+    <button type="submit">Відправити</button>
+</form>

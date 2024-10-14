@@ -1,0 +1,3 @@
+Error: The view 'CheckCookie' was not found. The following locations were searched:
+/Views/Home/CheckCookie.cshtml
+/Views/Shared/CheckCookie.cshtml
